@@ -1,2 +1,0 @@
-# ApolloGraphQLTutorial
- ReactNative ApolloGraphQL Tutorial

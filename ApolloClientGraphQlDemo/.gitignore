@@ -1,0 +1,127 @@
+# OSX
+#
+.DS_Store
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/.idea/
+ios/.vscode/
+*.xcodeproj/project.xcworkspace/
+*.xcuserdata/
+*.xcuserdatad/
+*.lock
+
+# Xcode specific
+*.xcworkspace
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata
+!*.xcodeproj/xcshareddata/*
+!*.xcodeproj/xcuserdata
+
+# Code signing
+ios/fastlane/README.md
+ios/fastlane/Appfile
+ios/fastlane/Fastfile
+ios/fastlane/Matchfile
+ios/fastlane/metadata
+ios/fastlane/screenshots
+ios/fastlane/test_output
+*.crt
+*.cer
+*.mobileprovision
+*.p12
+
+# OS-specific files
+*.DS_Store
+*.swp
+*.swo
+*.swm
+*.dmg
+*.sublime-workspace
+*.sublime-project
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Yarn
+yarn-error.log
+yarn-debug.log
+.yarn/
+.pnp.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Expo
+.expo/
+.expo-shared/
+
+# Metro
+.metro-bundler-cache/
+*.tmp
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/local.properties
+android/app/proguard-rules.pro
+android/.externalNativeBuild/
+android/.cxx/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+**/Pods/
+/vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# testing
+/coverage
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
